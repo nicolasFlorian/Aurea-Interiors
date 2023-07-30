@@ -16,13 +16,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #412817;
-    padding: 12px 0px;
+    padding: 16px 0px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    margin: 36px 0px 16px 0px;
+    margin: 36px 0px 12px 0px;
 }
 
 #logo h1{
@@ -40,7 +40,7 @@ nav {
 }
 
 header nav ul{
-    width: 440px;
+    width: 340px;
     display: flex;
     justify-content: space-around;
 }
@@ -48,14 +48,14 @@ header nav ul{
 header nav ul li a{
     color: #fdf6ee;
     font-size: 16px;
-    padding: 8px 10px;
+    padding: 6px 10px;
     border-radius: 3px;
     transition: 0.3s ease all;
+    font-weight: 500;
 }
 
 header nav ul li a:hover{
     color: #412817;
     cursor: pointer;
     background-color: #fdf6ee;
-    font-weight: 500;
 }
