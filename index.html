@@ -8,25 +8,131 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container__header">
             <span id="logo">
-                <h1>Aurea <span>Interiors</span></h1>
+                <a href="#"><h1>Aurea<br><span>Interiors</span></h1></a>
             </span>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">História</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Projetos</a>
+                        <a href="#projects">Projetos</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-
+    <section id="about">
+        <div class="container">
+            <img src="images/people.jpg" alt="people at office">
+            <div>
+                <h2>Sobre nós</h2>
+                <br>
+                <p>No turbulento cenário da pandemia global,
+                    em meio a desafios e incertezas, surgiu
+                    uma ideia audaciosa que transformaria vidas:
+                    criar a Aurea Interiors. Fundada por Sofia Bianchi,
+                    essa história começou como um sonho de longa data
+                    que finalmente encontrou sua oportunidade de se
+                    concretizar.
+                </p>
+                <br>
+                <p>
+                    Durante os dias incertos do isolamento social,
+                    Sofia percebeu que as casas ganharam ainda mais
+                    importância como refúgios acolhedores e espaços
+                    multifuncionais. Foi então que ela decidiu transformar
+                    sua paixão em uma empresa que não apenas projetasse
+                    espaços, mas sim ambientes que refletissem as personalidades
+                    e necessidades únicas de cada cliente.
+                </p>
+                <button type="button">Leia mais</button>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container container__gallery">
+            <h2>Galeria de projetos</h2>
+            <div class="gallery">
+                <div class="image__container__project">
+                    <img src="images/project1.jpg" alt="A room with chairs and a kind of table">
+                    <p class="overlay">Sala Allure</p>
+                </div>
+                <div class="image__container__project">
+                    <img src="images/project2.jpg" alt="A room with chairs and a kind of table">
+                    <p class="overlay">Conceito de cozinha aberta</p>
+                </div>
+                <div class="image__container__project">
+                    <img src="images/project3.jpg" alt="A room with chairs and a kind of table">
+                    <p class="overlay">Espaço Benchinni</p>
+                </div>
+                <div class="image__container__project">
+                    <img src="images/project4.jpg" alt="A room with chairs and a kind of table">
+                    <p class="overlay">Escritório Mind</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container container__contact">
+            <div class="div__form">
+                <h2>Entre em contato conosco</h2>
+                <h3>Nos envie um email com os detalhes de seu projeto!</h3>
+                <form>
+                    <div class="input__animated">
+                        <input type="text" placeholder="" required id="name">
+                        <label for="name">Nome</label>
+                    </div>
+                    <div class="input__animated">
+                        <input type="email" placeholder="" required id="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input__animated">
+                        <input type="tel" placeholder="" id="phone">
+                        <label for="phone">Telefone</label>
+                    </div>
+                    <div class="input__animated">
+                        <textarea placeholder="" rows="10" required id="message"></textarea>
+                        <label for="message">Sua mensagem</label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="div__social">
+                <h2>Redes sociais</h2>
+                <h3>Nos siga nas redes sociais e fique por dentro de tudo!</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/tiktok-logo.png" alt="tiktok's logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/Instagram-logo.png" alt="instagram's logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/facebook-logo.png" alt="facebook's logo">
+                        </a>
+                    </li>
+                </ul>
+                <h2>Marque uma visita</h2>
+                <p><strong>Tel:</strong> <a href="tel:1144404440">(11) 4440-4440</a><br>
+                    <strong>Cel:</strong> <a href="tel:11999909990">(11) 99990-9990</a>
+                </p>
+            </div>
+            <div class="div__addres">
+                <h2>Endereço</h2>
+                <p>Estamos localizados em: Rua Montegar, 123 - São Paulo - SP</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
