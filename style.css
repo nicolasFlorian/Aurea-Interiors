@@ -257,3 +257,12 @@ section button:hover{
     text-decoration: underline;
     color: #ac734d;
 }
+
+footer{
+    padding: 16px 64px;
+    background-color: #ac734d;
+    color: #fffcf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
