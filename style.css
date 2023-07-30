@@ -48,14 +48,13 @@ header nav ul{
 header nav ul li a{
     color: #fdf6ee;
     font-size: 16px;
-    padding: 6px 10px;
     border-radius: 3px;
     transition: 0.3s ease all;
     font-weight: 500;
 }
 
 header nav ul li a:hover{
-    color: #412817;
+    color: #eea45f;
+    text-decoration: underline;
     cursor: pointer;
-    background-color: #fdf6ee;
 }
