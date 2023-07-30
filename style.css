@@ -80,6 +80,10 @@ section img {
     margin-right: 32px;
 }
 
+.about__images .teste{
+    height: 535px;
+}
+
 section p{
     font-size: 15px;
 }
